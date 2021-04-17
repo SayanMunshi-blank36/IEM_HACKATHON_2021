@@ -1,0 +1,59 @@
+@media only screen and (max-width: 670px) {
+  .email-error {
+    top: 18rem;
+  }
+  .password-error {
+    top: 25.5rem;
+  }
+  .email-check {
+    top: 18rem;
+  }
+  .password-check {
+    top: 25.5rem;
+  }
+}
+
+@media only screen and (max-width: 542px) {
+  .email-error {
+    top: 19rem;
+  }
+  .password-error {
+    top: 26.5rem;
+  }
+  .email-check {
+    top: 19rem;
+  }
+  .password-check {
+    top: 26.5rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .email-error {
+    right: 4rem;
+  }
+  .password-error {
+    right: 4rem;
+  }
+  .email-check {
+    right: 4rem;
+  }
+  .password-check {
+    right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .email-error {
+    top: 20rem;
+  }
+  .password-error {
+    top: 27.5rem;
+  }
+  .email-check {
+    top: 20rem;
+  }
+  .password-check {
+    top: 27.5rem;
+  }
+}

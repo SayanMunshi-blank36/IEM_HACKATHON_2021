@@ -1,0 +1,43 @@
+:root {
+  --main-backcolor: rgb(196, 238, 234);
+  --primary-color-1: rgb(0, 0, 0);
+  --btn-color: rgb(55, 158, 55);
+  --text-color: rgb(0, 68, 255);
+  --font-1: "Montserrat Alternates", sans-serif;
+  --font-2: "Bubblegum Sans", cursive;
+  --font-3: "Nunito", sans-serif;
+}
+
+.btn {
+  font-family: var(--font-2);
+  margin: 0rem 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: var(--btn-color);
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  color: var(--primary-color-1);
+  background-color: white;
+}
+
+.heading {
+  font-family: var(--font-1);
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.line {
+  width: 70%;
+  height: 0.1rem;
+  border: none;
+  outline: none;
+  background-color: orangered;
+}

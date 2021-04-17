@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/utils.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/responsive_login.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="./css/responsive.css" /> -->
+    <script
+      src="https://kit.fontawesome.com/4985815af4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+    ></script>
+    <title>WPharma/SignIn</title>
+  </head>
+  <body onload="myLoader()">
+    <div class="loader-container">
+      <div class="loader">
+        <i class="fas fa-heartbeat fa-4x"></i>
+      </div>
+    </div>
+    <scetion class="nav-bar">
+      <a href="./index.html"
+        ><div class="left-nav">
+          <div class="logo">
+            <img src="./images/logo.png" alt="logo-img" />
+          </div>
+        </div>
+      </a>
+    </scetion>
+    <section class="login-form">
+      <div class="content">
+        <h3 class="login-heading">SignIn to WPharma</h3>
+        <p>SignIn to WPharma and get these amazing benefits right from home.</p>
+        <form action="" name="myForm_signin_seller">
+          <label for="name">User Name:</label>
+          <input
+            type="text"
+            name="userName_signin_seller"
+            id="name"
+            placeholder="Enter user name"
+          />
+          <p class="user_error_message">
+            User Name should have atleast four characters
+          </p>
+          <i class="fas fa-check-circle user-check"></i>
+          <i class="fas fa-exclamation-circle user-error"></i>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="userEmail_signin_seller"
+            id="email"
+            placeholder="Enter Email Address"
+          />
+          <i class="fas fa-check-circle email-check"></i>
+          <i class="fas fa-exclamation-circle email-error"></i>
+          <p class="email_error_message">Enter Valid email address</p>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="userPassword_signin_seller"
+            id="password"
+            placeholder="Enter Password"
+          />
+          <i class="fas fa-check-circle password-check"></i>
+          <i class="fas fa-exclamation-circle password-error"></i>
+          <p class="password_error_message">
+            Password should be atleast 8 figures long with no space and should
+            have atleast one special character
+          </p>
+          <label for="cpassword">Confirm Password:</label>
+          <input
+            type="password"
+            name="cuserPassword_signin_seller"
+            id="cpassword"
+            placeholder="Confirm Password"
+          />
+          <i class="fas fa-check-circle cpassword-check"></i>
+          <i class="fas fa-exclamation-circle cpassword-error"></i>
+          <p class="cpassword_error_message">Password dont match.</p>
+          <button type="submit" class="btn login-form-btn">SignIn</button>
+        </form>
+
+        <p>Or,Continue with</p>
+        <div class="socialIcons">
+          <a href=""> <i class="fab fa-facebook fa-2x"></i></a>
+          <a href=""> <i class="fab fa-twitter fa-2x"></i></a>
+          <a href=""> <i class="fab fa-google fa-2x"></i></a>
+        </div>
+        <p>Or,</p>
+        <a href="./login.html" class="create"
+          ><button class="login-form-btn btn">
+            LogIn to exitsting Account
+          </button></a
+        >
+      </div>
+      <img src="./images/undraw_welcome_cats_thqn.svg" alt="" />
+    </section>
+    <section class="modal">
+      <div class="center_div">
+        <div class="modal_header">SignIn Complete</div>
+        <div class="modal_content">
+          <div class="modal_icon_div">
+            <i class="far fa-check-circle modal_icon fa-7x"></i>
+          </div>
+          <p class="content_paragraph">Thank You For Signing In</p>
+          <a href="./index.html">
+            <button class="modal_btn">Continue</button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+      <p>
+        WPharma Copyright&copy; <span class="year"></span> ||<a href="">
+          Privacy Policy </a
+        >|| All Rights Reversed
+      </p>
+    </footer>
+    <a href="#"
+      ><button class="up-btn btn"><i class="fas fa-level-up-alt"></i></button
+    ></a>
+    <script src="./js/app5.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 90,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>

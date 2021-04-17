@@ -1,0 +1,174 @@
+@media only screen and (min-width: 2485px) {
+  .container {
+    position: relative;
+    text-align: center;
+    padding-top: 5rem;
+    display: none;
+  }
+
+  .container-heading {
+    margin-top: 3rem;
+  }
+
+  .container::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.171);
+    background-color: var(--main-backcolor);
+    height: 85%;
+    width: 50%;
+    left: 0;
+    top: -1.6rem;
+    transform: skewY(4deg);
+    display: none;
+  }
+  .container::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.185);
+    background-color: var(--main-backcolor);
+    height: 85%;
+    width: 50%;
+    right: 0;
+    top: -1.6rem;
+    transform: skewY(-4deg);
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  .fa-hamburger {
+    display: block !important;
+  }
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 255, 191);
+    position: absolute;
+    justify-content: center;
+    top: 5rem;
+    right: 0rem;
+    padding: 2rem 0rem;
+    height: 18rem;
+    width: 0rem;
+    border-bottom-left-radius: 1.5rem;
+    margin-right: -8rem;
+    transition: all 0.7s ease;
+  }
+
+  .side-bar-open {
+    width: 12rem;
+    margin-right: 0rem;
+  }
+
+  .nav-links li {
+    margin: 1rem 0rem;
+  }
+
+  form {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal_center_div {
+    width: 30rem;
+  }
+  .modal_main_div {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  body {
+    width: 100vw;
+    display: grid;
+    place-items: center;
+  }
+  .head {
+    height: 120vh;
+    background-position: bottom;
+  }
+  .logo img {
+    width: 5rem;
+  }
+  .login-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .microphone-btn {
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+  }
+  .search-div {
+    display: none;
+  }
+  footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .head {
+    height: 135vh;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .head {
+    height: 145vh;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .head {
+    height: 180vh;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 500px) {
+  #typed {
+    margin-top: -1rem;
+  }
+  .header-txt-tag {
+    margin-top: -7rem;
+  }
+  .header-icon {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-device-width: 653px) {
+  .logo img {
+    width: 4rem;
+  }
+  .search-div i {
+    font-size: 1.2rem;
+  }
+  .login-btn {
+    font-size: 1rem;
+  }
+  .microphone-btn {
+    font-size: 1rem;
+  }
+  .side-bar-open {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .side-bar-open li {
+    margin: 0.6rem 0rem;
+  }
+  .side-bar-open li a {
+    font-size: 1rem;
+  }
+  #typed {
+    margin-top: -5rem;
+  }
+  .header-txt-tag {
+    margin-top: -14rem;
+  }
+  .header-icon {
+    margin-top: -3rem;
+  }
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/utils.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/4985815af4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+    ></script>
+    <title>WPharma</title>
+  </head>
+  <body onload="myLoader()">
+    <div class="loader-container">
+      <div class="loader">
+        <i class="fas fa-heartbeat fa-4x"></i>
+      </div>
+    </div>
+    <header class="head">
+      <nav class="nav">
+        <a href="./index.html"
+          ><div class="left-nav">
+            <div class="logo">
+              <img src="./images/logo.png" alt="logo-img" />
+            </div>
+          </div>
+        </a>
+        <div class="right-nav">
+          <div class="hide-menu">
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="search-div">
+            <input
+              type="text"
+              class="search-bar"
+              placeholder="Search medicines/healthcare Products"
+            />
+            <i class="fas fa-search"></i>
+          </div>
+          <button class="btn login-btn">LogIn</button>
+          <button class="btn microphone-btn">
+            <i class="fas fa-microphone"></i>
+          </button>
+          <div class="micro-on">Click To Switch On Voice</div>
+          <i class="fas fa-hamburger fa-2x"></i>
+        </div>
+      </nav>
+      <div class="header-txt">
+        <div class="header-txt-tag">Welcome to WPharma</div>
+        <div class="header-txt-line" id="typed-string">
+          <p>Medicne Delivery made easy</p>
+          <p>Contact Your Favourite pharmaseutical shop from home</p>
+          <p>Contact Online and get medicine delivered at home</p>
+        </div>
+        <span id="typed"></span>
+        <button class="header-icon btn"><i class="fas fa-heart"></i></button>
+      </div>
+    </header>
+    <section class="slant-shape">
+      <div class="container"></div>
+    </section>
+    <h2 class="container-heading">
+      Get Your Medicine At Your Door Step With Just A Click
+    </h2>
+    <section id="features">
+      <h2 class="heading">Features</h2>
+      <div class="feature-point" data-aos="fade-in">
+        <img
+          src="./images/undraw_Connected_re_lmq2.svg"
+          alt="connect-img"
+          data-aos="fade-right"
+        />
+        <div class="feature-point-content" data-aos="fade-left">
+          We provide a 24/7 active server-bot for you to order medicines from
+          your local area.
+        </div>
+      </div>
+      <div class="feature-point point-reverse" data-aos="fade-in">
+        <img
+          src="./images/undraw_Chatting_re_j55r.svg"
+          alt="connect-img"
+          data-aos="fade-left"
+        />
+        <div class="feature-point-content" data-aos="fade-right">
+          You can chat with the shopkeeper about the pricing and availability of
+          the medicine.
+        </div>
+      </div>
+      <div class="feature-point" data-aos="fade-in">
+        <img
+          src="./images/undraw_Chat_bot_re_e2gj.svg"
+          alt="connect-img"
+          data-aos="fade-right"
+        />
+        <div class="feature-point-content" data-aos="fade-left">
+          Also our Bot provide you temporary medication for common diseases
+          (though it is recommended to consult a professional before using the
+          temporary medication).
+        </div>
+      </div>
+      <div class="feature-point point-reverse" data-aos="fade-in">
+        <img
+          src="./images/undraw_empty_cart_co35.svg"
+          alt="connect-img"
+          data-aos="fade-left"
+        />
+        <div class="feature-point-content" data-aos="fade-right">
+          If you are a seller from any shop then it is easy to get customers by
+          logging in our website and you will get a sell request soon.
+        </div>
+      </div>
+      <div class="feature-point" data-aos="fade-in">
+        <img
+          src="./images/undraw_transfer_money_rywa.svg"
+          alt="connect-img"
+          data-aos="fade-right"
+        />
+        <div class="feature-point-content" data-aos="fade-left">
+          We support both online and offline transaction.
+        </div>
+      </div>
+      <div class="line"><hr /></div>
+    </section>
+    <section id="about">
+      <h2 class="heading">About</h2>
+      <div class="about-content" data-aos="zoom-in">
+        <div class="each-about-box">
+          <h2 class="about-inner-head">Our Motive</h2>
+          <div class="about-inner-content">
+            <img
+              src="./images/Family Values - Healthy Family.png"
+              alt="img"
+              data-aos="fade-right"
+            />
+            <div class="about-inner-para" data-aos="fade-left">
+              Our First and Foremost Motive is to provide You and Your Family a
+              safe and secure way online to get Medicine of Your need.
+            </div>
+          </div>
+        </div>
+        <div class="each-about-box">
+          <h2 class="about-inner-head">Our Vision</h2>
+          <div class="about-inner-content">
+            <img
+              src="./images/undraw_medical_care_movn (1).svg"
+              alt="img"
+              data-aos="fade-right"
+            />
+            <div class="about-inner-para" data-aos="fade-left">
+              Our Vision is to provide medical assitance thorough online which
+              require less effort and in exchange give great benefit.
+            </div>
+          </div>
+        </div>
+        <div class="each-about-box">
+          <h2 class="about-inner-head">Our Work</h2>
+          <div class="about-inner-content">
+            <img
+              src="./images/undraw_work_together_h63l.svg"
+              alt="img"
+              data-aos="fade-right"
+            />
+            <div class="about-inner-para" data-aos="fade-left">
+              We have provided an easy to use online platform for ordering
+              medicine from your trustworthy shop and to keep track the
+              availability of the medicine. We also intend to add a feature
+              which can allow patients online consultancy about different
+              diseases online for temporary precautions.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"><hr /></div>
+    </section>
+    <section id="contact">
+      <h2 class="heading">Contact</h2>
+      <div class="contact-form">
+        <p>
+          Here You can contact with us in case you are facing any problem while
+          using our website or you want to suggest some changes to be done. Feel
+          free to message us using the given below form or you can mail us at
+          the email-id provided.
+        </p>
+        <form action="" name="myForm">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="fullName"
+            id="name"
+            placeholder="Enter your full name"
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="emailAddress"
+            id="email"
+            placeholder="Enter your Email Address"
+          />
+          <label for="query">Write Your Query:</label>
+          <textarea
+            name="writeQuery"
+            id="query"
+            cols="30"
+            rows="10"
+            placeholder="Write Your Query"
+          ></textarea>
+          <button type="submit" class="btn submit-btn" type="submit">
+            Submit
+          </button>
+        </form>
+        <section class="contact_modal">
+          <!-- <h3>Your Response Has Been Submitted</h3> -->
+        </section>
+        <p>OR,</p>
+        <p>
+          Email us at : <span class="comp-mail">www.WPharma21@gamil.com</span>
+        </p>
+      </div>
+    </section>
+    <section class="modal_main_div">
+      <div class="modal_center_div">
+        <div class="modal_main_header">
+          <h2 class="modal_header_heading">Login</h2>
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="modal_main_content">
+          <p>Continue as a...</p>
+          <div class="btn-box">
+            <a href="./login.html"
+              ><button class="modal_btn customer_btn">Customer</button></a
+            >
+            <a href="./logIn_seller.html">
+              <button class="modal_btn seller_btn">Seller</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+      <p>
+        WPharma Copyright&copy; <span class="year"></span> ||<a href="">
+          Privacy Policy </a
+        >|| All Rights Reversed
+      </p>
+    </footer>
+    <a href="#"
+      ><button class="up-btn btn">
+        <i class="fas fa-level-up-alt"></i></button
+    ></a>
+    <script src="./js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 90,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1250px) {
+  .content p {
+    text-align: center;
+  }
+  input {
+    width: 25rem;
+  }
+}
+@media only screen and (max-width: 994px) {
+  input {
+    width: 35rem;
+  }
+  .content {
+    width: 90%;
+  }
+  .user-error {
+    right: 7rem;
+  }
+  .email-error {
+    right: 7rem;
+  }
+  .password-error {
+    right: 7rem;
+  }
+  .cpassword-error {
+    right: 7rem;
+  }
+  .user-check {
+    right: 7rem;
+  }
+  .email-check {
+    right: 7rem;
+  }
+  .password-check {
+    right: 7rem;
+  }
+  .cpassword-check {
+    right: 7rem;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  input {
+    width: 25rem;
+  }
+  .user-error {
+    top: 19rem;
+  }
+  .email-error {
+    top: 26.4rem;
+  }
+  .password-error {
+    top: 34rem;
+  }
+  .cpassword-error {
+    top: 42.5rem;
+  }
+  .user-check {
+    top: 19rem;
+  }
+  .email-check {
+    top: 26.4rem;
+  }
+  .password-check {
+    top: 34rem;
+  }
+  .cpassword-check {
+    top: 42.5rem;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .content {
+    width: 100%;
+  }
+  input {
+    width: 15rem;
+  }
+  .remember span,
+  .remember a p {
+    font-size: 0.7rem;
+  }
+  .login-form img {
+    width: 18rem;
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  input {
+    width: 12rem;
+  }
+  .remember {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #remember-me {
+    margin: 0rem;
+  }
+  .login-form img {
+    width: 15rem;
+    height: 18rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  input {
+    width: 10rem;
+  }
+  .remember {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #remember-me {
+    margin: 0rem;
+  }
+  .login-form img {
+    width: 15rem;
+    height: 18rem;
+  }
+  .login-form-btn {
+    margin: 1rem 2rem;
+    cursor: pointer;
+  }
+  .user-error {
+    top: 20.5rem;
+    right: 4.5rem;
+  }
+  .email-error {
+    top: 28.9rem;
+    right: 4.5rem;
+  }
+  .password-error {
+    top: 36.5rem;
+    right: 4.5rem;
+  }
+  .cpassword-error {
+    top: 46rem;
+    right: 4.5rem;
+  }
+  .user-check {
+    top: 20.5rem;
+    right: 4.5rem;
+  }
+  .email-check {
+    top: 28.9rem;
+    right: 4.5rem;
+  }
+  .password-check {
+    top: 36.5rem;
+    right: 4.5rem;
+  }
+  .cpassword-check {
+    top: 46rem;
+    right: 4.5rem;
+  }
+}
